@@ -52,4 +52,6 @@ Then it keeps track of the maximum value over all combinations.
 Output the **maximum number of coins** that can be achieved for each test case by choosing the best `0`/`1` count combination and best interaction type (`C` or `D`).
 
 ---
+This program finds the maximum coins you can earn by forming a binary string of length N using 0s and 1s. Each 0 gives A coins, each 1 gives B coins, and each interaction between 0s and 1s can either earn C coins (for 0-1 pairs) or D coins (for 1-0 pairs).
 
+For every possible number of 0s (from 0 to N), it calculates how many 1s there are and then computes the total coins using both types of interactions. It picks the better of the two and keeps track of the best overall result to print the maximum coins possible for each test case.
