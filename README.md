@@ -53,4 +53,3 @@ Output the **maximum number of coins** that can be achieved for each test case b
 
 ---
 
-Let me know if you'd like a [visual explanation](f), a [sample input/output](f), or [code optimization](f).
